@@ -33,7 +33,7 @@ sudo apt-get -y update
 # 2. INSTALL THE DEPENDENCIES
 
 # Build tools:
-sudo apt-get install -y build-essential cmake
+sudo apt-get install -y build-essential cmake python3-pil
 
 # GUI (if you want GTK, change 'qt5-default' to 'libgtkglext1-dev' and remove '-DWITH_QT=ON'):
 sudo apt-get install -y qt5-default libvtk6-dev
